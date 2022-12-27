@@ -28,9 +28,13 @@ body {
 }
 
 .intro-date {
-   font-size: 0.75rem;
    margin: 5em 0 .5em;
    text-transform: uppercase;
+}
+
+.intro-date,
+.main-content-date {
+   font-size: 0.75rem;
 }
 
 .intro-date,
@@ -38,8 +42,9 @@ p {
    letter-spacing: 1px;
 }
 
-p {
-   font-size: .825rem;
+p,
+.main-content-paragraph {
+   font-size: 1rem;
    line-height: 1.5;
 }
 
@@ -117,10 +122,6 @@ header {
 .blog-title {
    margin-bottom: 0.5em;
    color: #444;
-}
-
-.main-content-paragraph {
-   font-size: .9rem;
 }
 
 .img-item {
@@ -211,6 +212,11 @@ footer {
       background-color: #fafafa;
    }
 
+   p,
+   .main-content-paragraph {
+   font-size: 1.25rem;
+   }
+
    header {
       padding: 1.7em 0;
       background-color: #fff;
@@ -219,6 +225,7 @@ footer {
    .logo-text {
       font-size: 1.25rem;
    }
+
    
    .logo-img {
       width: 30px;

@@ -45,8 +45,8 @@ p {
 }
 
 p {
-   font-size: .825rem;
-   line-height: 1.4;
+   font-size: 1rem;
+   line-height: 1.5;
 }
 
 .intro-date {
@@ -66,6 +66,10 @@ p {
 .post-content-date {
    margin: .5em 0;
    text-transform: uppercase;
+}
+
+.post-content-date {
+   font-size: .825rem;
 }
 
 
@@ -200,6 +204,10 @@ footer {
 
    body {
       background-color: #fafafa;
+   }
+
+   p {
+      font-size: 1.25rem;
    }
 
    header {
